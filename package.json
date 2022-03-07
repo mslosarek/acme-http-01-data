@@ -1,6 +1,6 @@
 {
   "name": "@slosarek/acme-http-01-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "node test"
