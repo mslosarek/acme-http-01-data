@@ -1,0 +1,29 @@
+{
+  "name": "@slosarek/acme-http-01-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "mark@slosarek.com",
+  "license": "MIT",
+  "devDependencies": {
+    "acme-challenge-test": "^3.3.2",
+    "mongodb-memory-server": "^8.4.0"
+  },
+  "dependencies": {
+    "@slosarek/greenlock-data-layer": "^1.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mslosarek/acme-http-01-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mslosarek/acme-http-01-data/issues"
+  },
+  "homepage": "https://github.com/mslosarek/acme-http-01-data#readme",
+  "description": "Greenlock acme-http-01 base that uses @slosarek/greenlock-data-layer for data storage."
+}
